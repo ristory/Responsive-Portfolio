@@ -257,15 +257,43 @@ input[type=submit] {
     max-width: 100%;  
     text-align: center;
     position: static; 
+    padding: 0;
   }
 
   #logo{  
     width: 100%;
     max-width: 100%; 
-    text-align: center;
-  }
+  
+  } 
 
   nav {
     width: 100%;
+    max-width: 100%;
   }
+
+  #main-container {
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+
+  #main-container img {
+    width: 100%;
+    max-width: 550px;
+  } 
+
+  .main-section {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .work{
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  ul{
+    padding:0;
+  }
+
 }
